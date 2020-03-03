@@ -11,7 +11,7 @@ After installing simply type any of the below abbreviation triggers and press **
 ## Includes:
 
 ### imglazy
-An improvement over the standard ``img`` trigger. Includes Chrome's native lazy loading, width, and height attributes. Far more useful than the default ``img`` trigger.
+An improvement over the standard ``img`` trigger. Includes [Chrome's native lazy loading](https://web.dev/native-lazy-loading/), width, and height attributes. Far more useful than the default ``img`` trigger.
 
 ``img[loading='lazy' width='256px' height='256px' src='https://placehold.it/256/jpg?text=JPG+256']``
 
@@ -21,7 +21,7 @@ Insert a picture element with multiple placeholder sources. Far more useful than
 ``picture>source[type='image/webp' srcset='https://placehold.it/256/webp' media='(min-width: $@100px)']*3+imglazy``
 
 ### webp
-Insert a placeholder .webp image (with jpg fallback) using the picture element.
+Insert a placeholder [.webp image](https://developers.google.com/speed/webp) (with jpg fallback) using the picture element.
 
 ``picture>source[type='image/webp' srcset='https://placehold.it/256/webp']+source[type='image/jpg' srcset='https://placehold.it/256/jpg']+imglazy``
 
