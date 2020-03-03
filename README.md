@@ -1,4 +1,4 @@
-# Jays-custom-Sublime-shortcuts
+# Jays-custom-Emmet-shortcuts
 
 Extend Sublime/Emmet's functionality with these useful Emmet abbreviations.
 
