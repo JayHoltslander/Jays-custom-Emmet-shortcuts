@@ -3,7 +3,7 @@
 Extend Sublime/Emmet's functionality with these useful Emmet abbreviations.
 
 ## How to install
-
+In Sublime, select **Preferences** > **Package Settings** > **Emmet** > **Settings - User** and paste the contents of ``Emmet.sublime-settings`` in there. Or alternatively overwrite your `` ~/⁨Library/Application Support/Sublime Text 3⁩/⁨Packages/User/Emmet.sublime-settings`` file with this one.
 
 ## How to use
 After installing simply type any of the below abbreviation triggers and press **tab**
