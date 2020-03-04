@@ -9,7 +9,18 @@
         "columns4": ".row>.col.s3.m3*4",
         "pic": "picture>source[type='image/webp' srcset='https://placehold.it/256/webp' media='(min-width: 320px)']+source[type='image/webp' srcset='https://placehold.it/512/webp' media='(min-width: 640px)']+source[type='image/webp' srcset='https://placehold.it/768/webp' media='(min-width: 1024px)']+imglazy",
         "webp":"picture>source[type='image/webp' srcset='https://placehold.it/256/webp']+source[type='image/jpg' srcset='https://placehold.it/256/jpg']+imglazy",
-        "youtube": "c{LITE YOUTUBE EMBED - SEE: https://github.com/paulirish/lite-youtube-embed}+link[rel='stylesheet' href='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.css']+script[src='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.js']+lite-youtube[videoid='ogfYd705cRs']"
+        "youtube": "c{LITE YOUTUBE EMBED - SEE: https://github.com/paulirish/lite-youtube-embed}+link[rel='stylesheet' href='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.css']+script[src='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.js']+lite-youtube[videoid='ogfYd705cRs']",
+        // BOOTSTRAP 4 SNIPPETS
+        "b4-breadcrumbs": "nav[aria-label='breadcrumb']>ol.breadcrumb>li.breadcrumb-item*2>a[href='#$']{Link}^li.breadcrumb-item.active[aria-current='page']{Link}^c{/BREADCRUMBS}",
+        "b4-badge-primary": "span.badge.badge-primary",
+        "b4-badge-secondary": "span.badge.badge-secondary",
+        "b4-badge-success": "span.badge.badge-success",
+        "b4-badge-danger": "span.badge.badge-danger",
+        "b4-badge-warning": "span.badge.badge-warning",
+        "b4-badge-info": "span.badge.badge-info",
+        "b4-badge-light": "span.badge.badge-light",
+        "b4-badge-dark": "span.badge.badge-dark",
+        "b4-jumbotron": ".jumbotron.mt-5>h1.display-4{Hello, world!}+p.lead{This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.}+hr.my-4+p{It uses utility classes for typography and spacing to space content out within the larger container.}+a.btn.btn-primary.btn-lg[href='#' role='button']{Learn more}",
       }
     }
   }
