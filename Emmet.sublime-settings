@@ -7,7 +7,7 @@
         "columns2": ".row>.col.s6.m6*2",
         "columns3": ".row>.col.s4.m4*3",
         "columns4": ".row>.col.s3.m3*4",
-        "pic": "picture>source[type='image/webp' srcset='https://placehold.it/256/webp' media='(min-width: $@100px)']*3+imglazy",
+        "pic": "picture>source[type='image/webp' srcset='https://placehold.it/256/webp' media='(min-width: 320px)']+source[type='image/webp' srcset='https://placehold.it/512/webp' media='(min-width: 640px)']+source[type='image/webp' srcset='https://placehold.it/768/webp' media='(min-width: 1024px)']+imglazy",
         "webp":"picture>source[type='image/webp' srcset='https://placehold.it/256/webp']+source[type='image/jpg' srcset='https://placehold.it/256/jpg']+imglazy",
         "youtube": "c{LITE YOUTUBE EMBED - SEE: https://github.com/paulirish/lite-youtube-embed}+link[rel='stylesheet' href='node_modules/lite-youtube-embed/src/lite-yt-embed.css']+script[src='node_modules/lite-youtube-embed/src/lite-yt-embed.js']+lite-youtube[videoid='ogfYd705cRs']"
       }
