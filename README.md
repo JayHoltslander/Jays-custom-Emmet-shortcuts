@@ -38,22 +38,14 @@ Instant embed code for [Paul Irish's Lite YouTube Embed](https://github.com/paul
 
 ``c{LITE YOUTUBE EMBED - SEE: https://github.com/paulirish/lite-youtube-embed}+link[rel='stylesheet' href='node_modules/lite-youtube-embed/src/lite-yt-embed.css']+script[src='node_modules/lite-youtube-embed/src/lite-yt-embed.js']+lite-youtube[videoid='ogfYd705cRs']``
 
-### columns
-Creates a row with 1-4 nested column(s). Useful for Bootstrap or some other css framework.
+## Bootstrap Shortcuts
+Misc. bootstrap snippets have been included to make page building a task that takes seconds instead of minutes.
 
-![](img/columns.gif)
-
-#### columns1
-``.row>.col.s12.m12``
-
-#### columns2
-``.row>.col.s6.m6*2``
-
-#### columns3
-``.row>.col.s4.m4*3``
-
-#### columns4
-``.row>.col.s3.m3*4``
+### Try:
+* b4-boilerplate
+* b4-container
+* b4-jumbotron
+* br-cols3
 
 ## Shout out
 Hat tip to [@OdatNurd](https://github.com/OdatNurd) for guiding me towards figuring out how to modify default autocompletion behavior.
