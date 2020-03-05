@@ -2,7 +2,7 @@
   "snippets": {
     "html": {
       "abbreviations": {
-        "imglazy": "img[loading='lazy' width='256px' height='256px' src='https://placehold.it/256/jpg?text=JPG+256']",
+        "imglazy": "img[loading='lazy' width='256px' height='256px' src='https://placehold.it/256/563D7D/fff/jpg?text=JPG+256']",
         "pic": "picture>source[type='image/webp' srcset='https://placehold.it/256/webp' media='(min-width: 320px)']+source[type='image/webp' srcset='https://placehold.it/512/webp' media='(min-width: 640px)']+source[type='image/webp' srcset='https://placehold.it/768/webp' media='(min-width: 1024px)']+imglazy",
         "webp":"picture>source[type='image/webp' srcset='https://placehold.it/256/webp']+source[type='image/jpg' srcset='https://placehold.it/256/jpg']+imglazy",
         "youtube": "c{LITE YOUTUBE EMBED - SEE: https://github.com/paulirish/lite-youtube-embed}+link[rel='stylesheet' href='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.css']+script[src='https://paulirish.github.io/lite-youtube-embed/src/lite-yt-embed.js']+lite-youtube[videoid='ogfYd705cRs']",
@@ -43,6 +43,15 @@
         "b4-badge-info": "span.badge.badge-info{Info}>c{}",
         "b4-badge-light": "span.badge.badge-light{Light}>c{}",
         "b4-badge-dark": "span.badge.badge-dark{Dark}>c{}",
+        // BADGES (PILL)
+        "b4-badge-primary-pill": "span.badge.badge-primary.badge-pill{Primary}>c{}",
+        "b4-badge-secondary-pill": "span.badge.badge-secondary.badge-pill{Secondary}>c{}",
+        "b4-badge-success-pill": "span.badge.badge-success.badge-pill{Success}>c{}",
+        "b4-badge-danger-pill": "span.badge.badge-danger.badge-pill{Danger}>c{}",
+        "b4-badge-warning-pill": "span.badge.badge-warning.badge-pill{Warning}>c{}",
+        "b4-badge-info-pill": "span.badge.badge-info.badge-pill{Info}>c{}",
+        "b4-badge-light-pill": "span.badge.badge-light.badge-pill{Light}>c{}",
+        "b4-badge-dark-pill": "span.badge.badge-dark.badge-pill{Dark}>c{}",
         // BUTTONS
         "b4-btn-primary": "button.btn.btn-primary[type='button']{Primary}>c{}",
         "b4-btn-secondary": "button.btn.btn-secondary[type='button']{Secondary}>c{}",
@@ -85,9 +94,16 @@
         // BUTTON GROUPS
         "b4-btn-group": ".btn-group[role='group' aria-label='Basic example']>button.btn.btn-secondary[type='button']{Left}+button.btn.btn-secondary[type='button']{Middle}+button.btn.btn-secondary[type='button']{Right}^^c{}",
         "b4-btn-toolbar":".btn-toolbar[role='toolbar' aria-label='Toolbar with button groups'](.btn-group.mr-2[role='group' aria-label='First group'](button.btn.btn-secondary[type='button']{1}+button.btn.btn-secondary[type='button']{2}+button.btn.btn-secondary[type='button']{3}+button.btn.btn-secondary[type='button']{4}))+(.btn-group.mr-2[role='group' aria-label='Second group'](button.btn.btn-secondary[type='button']{5}+button.btn.btn-secondary[type='button']{6}+button.btn.btn-secondary[type='button']{7}))(c{})",
+
+        // LISTS
+        "b4-list-group": "ul.list-group>li.list-group-item{Cras justo odio}+li.list-group-item{Dapibus ac facilisis in}+li.list-group-item{Morbi leo risus}+li.list-group-item{Porta ac consectetur ac}+li.list-group-item{Vestibulum at eros}^c{}",
+        "b4-list-group-flush": "ul.list-group.list-group-flush>li.list-group-item{Cras justo odio}+li.list-group-item{Dapibus ac facilisis in}+li.list-group-item{Morbi leo risus}+li.list-group-item{Porta ac consectetur ac}+li.list-group-item{Vestibulum at eros}^c{}",
+
         // SPECIAL COMPONENTS
         "b4-jumbotron": ".jumbotron.mt-5>h1.display-4{Hello, world!}+p.lead{This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.}+hr.my-4+p{It uses utility classes for typography and spacing to space content out within the larger container.}+a.btn.btn-primary.btn-lg[href='#' role='button']{Learn more}^c{}",
         "b4-accordian": "div#accordionExample.accordion>div.card>div#headingOne.card-header>h2.mb-0>button.btn.btn-link[type='button' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapse$']{Collapsible Group Item #1}^div#collapseOne.collapse.show[aria-labelledby='headingOne' data-parent='#accordionExample']>div.card-body{Content here.}^^div.card>div#headingTwo.card-header>h2.mb-0>button.btn.btn-link.collapsed[type='button' data-toggle='collapse' data-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo']{Collapsible Group Item #2}^div#collapseTwo.collapse[aria-labelledby='headingTwo' data-parent='#accordionExample']>div.card-body{Content here.}^^div.card>div#headingThree.card-header>h2.mb-0>button.btn.btn-link.collapsed[type='button' data-toggle='collapse' data-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree']{Collapsible Group Item #3}^div#collapseThree.collapse[aria-labelledby='headingThree' data-parent='#accordionExample']>div.card-body{Content here.}^^^^^^c{}",
+        "b4-media": "div.media>imglazy.mr-3+div.media-body>h5.mt-0{Media heading}+p{Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.}^^^c{}",
+        "b4-tabs": "ul.nav.nav-tabs.nav-fill.mt-2[role='tablist']>li.nav-item>a.nav-link.active[href='#home' data-toggle='tab' role='tab' aria-controls='home' aria-selected='true']{Home}^li.nav-item>a.nav-link[href='#profile' data-toggle='tab' role='tab' aria-controls='profile' aria-selected='false']{Profile}^li.nav-item>a.nav-link[href='#contact' data-toggle='tab' role='tab' aria-controls='Contact' aria-selected='false']{Contact}^li.nav-item>a.nav-link.disabled[href='#' data-toggle='tab' role='tab' tabindex='-1' aria-disabled='true']{Disabled}^^div#myTabContent.tab-content>div#home.tab-pane.fade.show.active[role='tabpanel' aria-labelledby='home-tab']{Content for Home}+div#profile.tab-pane.fade[role='tabpanel' aria-labelledby='profile-tab']{Content for Profile}+div#contact.tab-pane.fade[role='tabpanel' aria-labelledby='contact-tab']{Content for Contact}^^c{}"
       }
     }
   }
