@@ -1,5 +1,5 @@
 # Jays-custom-Emmet-shortcuts
-
+[![works badge](https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
 Extend Sublime/Emmet's functionality with these useful Emmet shortcuts (abbreviations).
 
 ## How to install
